@@ -152,7 +152,6 @@ A "selector" is a short identifier that tells Zenbot which exchange and currency
 zenbot list-selectors
 
 gdax:
-zenbot backfill gdax.LTC-USD --days 360
 
 
   gdax.BTC-EUR   (BTC/EUR)
