@@ -22,7 +22,7 @@ module.exports = function (cb) {
 
   // 2. load conf.js if present
   try {
-    conf = require('./conf')
+    conf = require('./config')
   } catch (err) {
     console.error(err + ', falling back to conf-sample')
   }
